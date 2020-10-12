@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4347a9eb3e6c3422f04c1f483f1adf85",
+    "revision": "bc5e576e87d660383b8c4dd1540e71c0",
     "url": "/choongam-middle_school/index.html"
   },
   {
-    "revision": "b6aadca8a34febf98915",
-    "url": "/choongam-middle_school/static/css/main.da2e0706.chunk.css"
+    "revision": "4ea75b1920189f39e260",
+    "url": "/choongam-middle_school/static/css/main.dfc64adb.chunk.css"
   },
   {
     "revision": "ff9d7ddc30dcaa6c7c70",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/choongam-middle_school/static/js/2.0b6d3357.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b6aadca8a34febf98915",
-    "url": "/choongam-middle_school/static/js/main.971b254e.chunk.js"
+    "revision": "4ea75b1920189f39e260",
+    "url": "/choongam-middle_school/static/js/main.e2c51737.chunk.js"
   },
   {
     "revision": "f30f9af68afb9a00d624",

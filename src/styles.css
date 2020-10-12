@@ -55,11 +55,6 @@
     outline: none;
   }
 
-  .video__player {
-    width: 50%;
-    height: 50%;
-  }
-
   .greeting__container {
     height: 30vh;
     display: flex;
@@ -608,7 +603,7 @@
   }
 
   .description__name {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     text-align: right;
   }
 

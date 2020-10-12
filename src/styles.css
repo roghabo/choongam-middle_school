@@ -336,12 +336,14 @@
   }
   .footer__names img {
     margin-right: 1rem;
+    width: 35rem;
+    height: 7rem;
   }
 
   .footer__content {
     opacity: 0.8;
-    font-size: 1.6rem;
     margin-bottom: 0.5rem;
+    display: none;
   }
 
   .jinyoung {

@@ -1,0 +1,387 @@
+@import "https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Song+Myung&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+input {
+  all: unset;
+  box-sizing: border-box;
+  appearance: none;
+}
+
+html {
+  font-size: 5px;
+}
+
+body {
+  color: #2d3436;
+  font-size: 1.6rem;
+  background-color: #ffeaa7;
+  margin: 3rem;
+  font-family: "Song Myung", serif;
+}
+
+form {
+  width: 100%;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.title__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0px 3rem 0px;
+}
+.home__title {
+  font-size: 6rem;
+  font-family: "Song Myung", serif;
+  font-weight: 400;
+}
+
+.video__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video__player video:focus {
+  outline: none;
+}
+
+.greeting__container {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.greeting__description-container {
+  width: 70%;
+}
+
+.greeting__title {
+  margin: 1rem 0px 4rem 0px;
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.greeting__description {
+  width: 100%;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.greeting__description-date {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
+
+.poem {
+  padding: 4rem;
+}
+
+.poem__title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin: 3rem 0rem;
+}
+
+.poem__container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 25rem));
+  column-gap: 2rem;
+  margin-bottom: 7rem;
+}
+
+.poem__card {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.poem__photo {
+  width: 25rem;
+  height: 25rem;
+  background-size: cover;
+  border-radius: 3%;
+  background-position: center center;
+}
+
+#p-10226 {
+  background-image: url("./assets/10226.png");
+}
+#p-10315 {
+  background-image: url("./assets/10315.png");
+}
+#p-10330 {
+  background-image: url("./assets/10330.png");
+}
+#p-10507 {
+  background-image: url("./assets/10507.png");
+}
+#p-10801 {
+  background-image: url("./assets/10801.png");
+}
+#p-10804 {
+  background-image: url("./assets/10804.png");
+}
+#p-10901 {
+  background-image: url("./assets/10901.jpg");
+}
+#p-20104c {
+  background-image: url("./assets/20104c.png");
+}
+#p-20104f {
+  background-image: url("./assets/20104f.jpg");
+}
+#p-20618 {
+  background-image: url("./assets/20618.png");
+}
+#p-20713 {
+  background-image: url("./assets/20713.png");
+}
+#p-20819 {
+  background-image: url("./assets/20819.png");
+}
+#p-20913 {
+  background-image: url("./assets/20913.png");
+}
+#p-20915 {
+  background-image: url("./assets/20915.png");
+}
+#p-21011 {
+  background-image: url("./assets/21011.png");
+}
+#p-21016 {
+  background-image: url("./assets/21016.png");
+}
+#p-30206 {
+  background-image: url("./assets/30206.png");
+}
+#p-30315 {
+  background-image: url("./assets/30315.png");
+}
+#p-30603 {
+  background-image: url("./assets/30603.png");
+}
+
+.modal__image {
+  width: auto;
+  max-width: 700px;
+  height: auto;
+  max-height: 700px;
+  position: relative;
+}
+
+.modal__btn {
+  position: absolute;
+  bottom: 3rem;
+  right: 3rem;
+  background-color: #ff7675;
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+  width: 6rem;
+  height: 3rem;
+  cursor: pointer;
+  font-size: 1.8rem;
+}
+.modal__btn:focus {
+  outline: none;
+}
+
+.poem__description {
+  padding-top: 2rem;
+}
+
+.description__title {
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.description__name {
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+.comment__box {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.comment__container {
+  padding: 4rem;
+}
+
+.comment__title {
+  font-size: 3.2rem;
+  margin-bottom: 3rem;
+}
+
+.comment__user {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.comment__user input {
+  border: 1px solid black;
+  height: 3rem;
+  border-radius: 0.3rem;
+  padding: 0rem 1rem;
+  width: 15%;
+}
+
+.comment__user input:first-child {
+  margin-right: 1rem;
+}
+
+.comment__input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.comment__input {
+  flex-grow: 1;
+  height: 5rem;
+  padding: 0px 2rem;
+  border: 1px solid #2f2f2f;
+  border-radius: 1rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.comment__arrow {
+  position: absolute;
+  right: 0;
+  background-color: #2f2f2f;
+  height: 5rem;
+  width: 6rem;
+  padding: 1rem 0rem;
+  text-align: center;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+  color: white;
+  box-sizing: border-box;
+}
+
+.comment {
+  margin-bottom: 2rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  padding: 2rem;
+  border-radius: 1rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.comment__text {
+  font-size: 1.6rem;
+}
+
+.comment__actions {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.comment__actions span {
+  cursor: pointer;
+}
+
+.comment__actions span:first-child {
+  margin-right: 1rem;
+}
+
+.commentEdit {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  height: 7vh;
+  border-top: 1px solid gray;
+  font-size: 1.2rem;
+}
+
+.footer__names {
+  display: flex;
+  opacity: 1;
+}
+.footer__names img {
+  margin-right: 1rem;
+}
+
+.footer__content {
+  opacity: 0.8;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.jinyoung {
+  opacity: 0.5;
+}
+
+.formInput {
+  width: 80%;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  border: 1px solid gray;
+  text-align: center;
+  color: gray;
+  box-sizing: border-box;
+}
+
+.formBtn {
+  cursor: pointer;
+  width: 10%;
+  padding: 0.7rem 2rem;
+  text-align: center;
+  color: white;
+  border-radius: 1rem;
+  background-color: #74b9ff;
+  margin-right: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.cancelBtn {
+  cursor: pointer;
+  width: 10%;
+  padding: 0.7rem 2rem;
+  text-align: center;
+  color: white;
+  border-radius: 1rem;
+  background-color: #ff7675;
+  margin-right: 0rem;
+}
+
+.btn__container {
+  display: flex;
+  justify-content: flex-end;
+}

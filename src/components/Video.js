@@ -14,7 +14,8 @@ export default () => (
         controls
         width="50%"
         height="50%"
-        url={require("assets/video2.mp4")}
+        codecs="hevc"
+        url={require("assets/video4.mp4")}
       />
     </div>
     <div className="greeting__container">

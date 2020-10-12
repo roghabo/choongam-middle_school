@@ -20,7 +20,7 @@ body {
   font-size: 1.6rem;
   background-color: #ffeaa7;
   margin: 3rem;
-  font-family: "Nanum Myeongjo", serif;
+  font-family: "Song Myung", serif;
 }
 
 form {
@@ -176,8 +176,10 @@ form {
 }
 
 .modal__image {
-  width: 50rem;
-  height: 70rem;
+  width: auto;
+  max-width: 700px;
+  height: auto;
+  max-height: 700px;
   position: relative;
 }
 
@@ -319,13 +321,31 @@ form {
 
 .footer {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding-top: 2rem;
-  height: 3vh;
+  height: 7vh;
   border-top: 1px solid gray;
-  opacity: 0.5;
   font-size: 1.2rem;
 }
+
+.footer__names {
+  display: flex;
+  opacity: 1;
+}
+.footer__names img {
+  margin-right: 1rem;
+}
+
+.footer__content {
+  opacity: 0.8;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.jinyoung {
+  opacity: 0.5;
+}
+
 .formInput {
   width: 80%;
   padding: 1rem 2rem;

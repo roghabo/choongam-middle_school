@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/choongam-middle_school/precache-manifest.d6becbf5eba820ddc9ea98e33780655e.js"
+  "/choongam-middle_school/precache-manifest.4fab746514c3d219222d49eeacb1e7a2.js"
 );
 
 self.addEventListener('message', (event) => {

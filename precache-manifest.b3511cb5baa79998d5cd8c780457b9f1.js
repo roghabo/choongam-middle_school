@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd0a788194485c7a8ad21cd019d2c812",
+    "revision": "6d93dff87da317f275044db425af6fb4",
     "url": "/choongam-middle_school/index.html"
   },
   {
-    "revision": "1e5a056218dc21ade6aa",
-    "url": "/choongam-middle_school/static/css/main.01e88616.chunk.css"
+    "revision": "89e8ab40de57ca80556e",
+    "url": "/choongam-middle_school/static/css/main.48eb47d5.chunk.css"
   },
   {
-    "revision": "ff9d7ddc30dcaa6c7c70",
-    "url": "/choongam-middle_school/static/js/2.0b6d3357.chunk.js"
+    "revision": "9aad2c90d79bae7dd88e",
+    "url": "/choongam-middle_school/static/js/2.966a26d1.chunk.js"
   },
   {
     "revision": "5f738c7bcc32891ed54e71d4aea6285a",
-    "url": "/choongam-middle_school/static/js/2.0b6d3357.chunk.js.LICENSE.txt"
+    "url": "/choongam-middle_school/static/js/2.966a26d1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1e5a056218dc21ade6aa",
-    "url": "/choongam-middle_school/static/js/main.64c0dd18.chunk.js"
+    "revision": "89e8ab40de57ca80556e",
+    "url": "/choongam-middle_school/static/js/main.11238240.chunk.js"
   },
   {
     "revision": "f30f9af68afb9a00d624",
@@ -98,6 +98,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cd2546da32337e651c94fe268011aa27",
     "url": "/choongam-middle_school/static/media/30603.cd2546da.png"
+  },
+  {
+    "revision": "5df4aba3ee560b16255e16c9aa858f19",
+    "url": "/choongam-middle_school/static/media/img1.5df4aba3.jpeg"
+  },
+  {
+    "revision": "d6946bfeed0f919c7a96a54bae5dd6c3",
+    "url": "/choongam-middle_school/static/media/img2.d6946bfe.jpeg"
+  },
+  {
+    "revision": "4756ee0499bacc34e64cfd2adf8bbe7a",
+    "url": "/choongam-middle_school/static/media/img3.4756ee04.jpeg"
+  },
+  {
+    "revision": "1c65ffa316588cccf65574db19472056",
+    "url": "/choongam-middle_school/static/media/img4.1c65ffa3.jpeg"
   },
   {
     "revision": "87b97f214c76f487ceb6a4caea9756dc",

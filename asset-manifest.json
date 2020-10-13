@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/choongam-middle_school/static/css/main.01e88616.chunk.css",
-    "main.js": "/choongam-middle_school/static/js/main.64c0dd18.chunk.js",
-    "main.js.map": "/choongam-middle_school/static/js/main.64c0dd18.chunk.js.map",
+    "main.css": "/choongam-middle_school/static/css/main.48eb47d5.chunk.css",
+    "main.js": "/choongam-middle_school/static/js/main.11238240.chunk.js",
+    "main.js.map": "/choongam-middle_school/static/js/main.11238240.chunk.js.map",
     "runtime-main.js": "/choongam-middle_school/static/js/runtime-main.90562433.js",
     "runtime-main.js.map": "/choongam-middle_school/static/js/runtime-main.90562433.js.map",
-    "static/js/2.0b6d3357.chunk.js": "/choongam-middle_school/static/js/2.0b6d3357.chunk.js",
-    "static/js/2.0b6d3357.chunk.js.map": "/choongam-middle_school/static/js/2.0b6d3357.chunk.js.map",
+    "static/js/2.966a26d1.chunk.js": "/choongam-middle_school/static/js/2.966a26d1.chunk.js",
+    "static/js/2.966a26d1.chunk.js.map": "/choongam-middle_school/static/js/2.966a26d1.chunk.js.map",
     "index.html": "/choongam-middle_school/index.html",
-    "precache-manifest.934c68a5a4110ceb4e019a9fce0a0db2.js": "/choongam-middle_school/precache-manifest.934c68a5a4110ceb4e019a9fce0a0db2.js",
+    "precache-manifest.b3511cb5baa79998d5cd8c780457b9f1.js": "/choongam-middle_school/precache-manifest.b3511cb5baa79998d5cd8c780457b9f1.js",
     "service-worker.js": "/choongam-middle_school/service-worker.js",
-    "static/css/main.01e88616.chunk.css.map": "/choongam-middle_school/static/css/main.01e88616.chunk.css.map",
-    "static/js/2.0b6d3357.chunk.js.LICENSE.txt": "/choongam-middle_school/static/js/2.0b6d3357.chunk.js.LICENSE.txt",
-    "static/media/styles.css": "/choongam-middle_school/static/media/30603.cd2546da.png",
+    "static/css/main.48eb47d5.chunk.css.map": "/choongam-middle_school/static/css/main.48eb47d5.chunk.css.map",
+    "static/js/2.966a26d1.chunk.js.LICENSE.txt": "/choongam-middle_school/static/js/2.966a26d1.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/choongam-middle_school/static/media/img4.1c65ffa3.jpeg",
     "static/media/video4.mp4": "/choongam-middle_school/static/media/video4.87b97f21.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.90562433.js",
-    "static/js/2.0b6d3357.chunk.js",
-    "static/css/main.01e88616.chunk.css",
-    "static/js/main.64c0dd18.chunk.js"
+    "static/js/2.966a26d1.chunk.js",
+    "static/css/main.48eb47d5.chunk.css",
+    "static/js/main.11238240.chunk.js"
   ]
 }

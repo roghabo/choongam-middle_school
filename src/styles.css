@@ -104,6 +104,14 @@
     margin-bottom: 7rem;
   }
 
+  .poem__container2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 39rem));
+    column-gap: 2rem;
+    margin-bottom: 7rem;
+  }
+
   .poem__card {
     display: flex;
     flex-direction: column;
@@ -113,6 +121,14 @@
 
   .poem__photo {
     width: 25rem;
+    height: 25rem;
+    background-size: cover;
+    border-radius: 3%;
+    background-position: center center;
+  }
+
+  .poem__photo2 {
+    width: 39rem;
     height: 25rem;
     background-size: cover;
     border-radius: 3%;
@@ -175,6 +191,18 @@
   }
   #p-30603 {
     background-image: url("./assets/30603.png");
+  }
+  #img1 {
+    background-image: url("./assets/img1.jpeg");
+  }
+  #img2 {
+    background-image: url("./assets/img2.jpeg");
+  }
+  #img3 {
+    background-image: url("./assets/img3.jpeg");
+  }
+  #img4 {
+    background-image: url("./assets/img4.jpeg");
   }
 
   .modal__image {
@@ -493,6 +521,14 @@
     margin-bottom: 7rem;
   }
 
+  .poem__container2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 39rem));
+    column-gap: 2rem;
+    margin-bottom: 7rem;
+  }
+
   .poem__card {
     display: flex;
     flex-direction: column;
@@ -502,6 +538,14 @@
 
   .poem__photo {
     width: 25rem;
+    height: 25rem;
+    background-size: cover;
+    border-radius: 3%;
+    background-position: center center;
+  }
+
+  .poem__photo2 {
+    width: 39rem;
     height: 25rem;
     background-size: cover;
     border-radius: 3%;
@@ -564,6 +608,18 @@
   }
   #p-30603 {
     background-image: url("./assets/30603.png");
+  }
+  #img1 {
+    background-image: url("./assets/img1.jpeg");
+  }
+  #img2 {
+    background-image: url("./assets/img2.jpeg");
+  }
+  #img3 {
+    background-image: url("./assets/img3.jpeg");
+  }
+  #img4 {
+    background-image: url("./assets/img4.jpeg");
   }
 
   .modal__image {

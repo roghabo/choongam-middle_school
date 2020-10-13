@@ -32,6 +32,10 @@ export default () => {
   const [modalIsOpen17, setIsOpen17] = useState(false);
   const [modalIsOpen18, setIsOpen18] = useState(false);
   const [modalIsOpen19, setIsOpen19] = useState(false);
+  const [modalIsOpen20, setIsOpen20] = useState(false);
+  const [modalIsOpen21, setIsOpen21] = useState(false);
+  const [modalIsOpen22, setIsOpen22] = useState(false);
+  const [modalIsOpen23, setIsOpen23] = useState(false);
   function openModal() {
     setIsOpen(true);
   }
@@ -145,6 +149,30 @@ export default () => {
   }
   function closeModal19() {
     setIsOpen19(false);
+  }
+  function openModal20() {
+    setIsOpen20(true);
+  }
+  function closeModal20() {
+    setIsOpen20(false);
+  }
+  function openModal21() {
+    setIsOpen21(true);
+  }
+  function closeModal21() {
+    setIsOpen21(false);
+  }
+  function openModal22() {
+    setIsOpen22(true);
+  }
+  function closeModal22() {
+    setIsOpen22(false);
+  }
+  function openModal23() {
+    setIsOpen23(true);
+  }
+  function closeModal23() {
+    setIsOpen23(false);
   }
   function afterOpenModal() {}
 
@@ -296,6 +324,21 @@ export default () => {
             <h4 className="description__title">이미 내게</h4>
             <h4 className="description__name">21011 엄지후</h4>
           </div>
+        </div>
+      </div>
+      <h2 className="poem__title">2020 시화 전시회</h2>
+      <div className="poem__container2">
+        <div className="poem__card">
+          <div className="poem__photo2" id="img1" onClick={openModal20}></div>
+        </div>
+        <div className="poem__card">
+          <div className="poem__photo2" id="img2" onClick={openModal21}></div>
+        </div>
+        <div className="poem__card">
+          <div className="poem__photo2" id="img3" onClick={openModal22}></div>
+        </div>
+        <div className="poem__card">
+          <div className="poem__photo2" id="img4" onClick={openModal23}></div>
         </div>
       </div>
 
@@ -620,6 +663,74 @@ export default () => {
             alt="21011"
           />
           <button className="modal__btn" onClick={closeModal19}>
+            닫기
+          </button>
+        </Modal>
+        <Modal
+          appElement={document.getElementById("img1")}
+          isOpen={modalIsOpen20}
+          onAfterOpen={afterOpenModal}
+          onRequestClose={closeModal20}
+          style={customStyles}
+          contentLabel="Example Modal"
+        >
+          <img
+            className="modal__image"
+            src={require("../assets/img1.jpeg")}
+            alt="img1"
+          />
+          <button className="modal__btn" onClick={closeModal20}>
+            닫기
+          </button>
+        </Modal>
+        <Modal
+          appElement={document.getElementById("img2")}
+          isOpen={modalIsOpen21}
+          onAfterOpen={afterOpenModal}
+          onRequestClose={closeModal21}
+          style={customStyles}
+          contentLabel="Example Modal"
+        >
+          <img
+            className="modal__image"
+            src={require("../assets/img2.jpeg")}
+            alt="img2"
+          />
+          <button className="modal__btn" onClick={closeModal21}>
+            닫기
+          </button>
+        </Modal>
+        <Modal
+          appElement={document.getElementById("img3")}
+          isOpen={modalIsOpen22}
+          onAfterOpen={afterOpenModal}
+          onRequestClose={closeModal22}
+          style={customStyles}
+          contentLabel="Example Modal"
+        >
+          <img
+            className="modal__image"
+            src={require("../assets/img3.jpeg")}
+            alt="img3"
+          />
+          <button className="modal__btn" onClick={closeModal22}>
+            닫기
+          </button>
+        </Modal>
+        <Modal
+          appElement={document.getElementById("img4")}
+          isOpen={modalIsOpen23}
+          onAfterOpen={afterOpenModal}
+          onRequestClose={closeModal23}
+          style={customStyles}
+          contentLabel="Example Modal"
+        >
+          <img
+            className="modal__image"
+            src={require("../assets/img4.jpeg")}
+            alt="img4"
+          />
+          <button className="modal__btn" onClick={closeModal23}>
             닫기
           </button>
         </Modal>
